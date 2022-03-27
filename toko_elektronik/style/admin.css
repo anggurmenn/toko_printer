@@ -1,0 +1,101 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/cute-celestial-icon-vector-linear-drawing-background_53876-105493.jpg);
+}
+
+.sidebar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-image: url(https://img.freepik.com/free-vector/cute-celestial-icon-vector-linear-drawing-background_53876-105493.jpg);
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    padding: 25px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 24px;
+    display: block;
+}
+
+.sidebar a:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+.main {
+    margin-right: 260px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+table {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.486);
+    margin-top: 30px;
+}
+
+th,
+td {
+    text-align: right;
+    padding: 10px;
+}
+
+a.tambah {
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    background: blue;
+}
+
+a.edit {
+    padding: 8px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    background: green;
+}
+
+a.hapus {
+    padding: 8px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    background: red;
+}
+
+.box {
+    height: 100%;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 20px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background: #4CAF50;
+    color: #ffffff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
